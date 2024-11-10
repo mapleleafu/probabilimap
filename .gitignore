@@ -1,0 +1,38 @@
+# Deno specific files
+server/deno.lock
+server/.vscode/
+server/.DS_Store
+
+# Node modules
+web/node_modules/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Dependency directories
+web/.pnp/
+web/.pnp.js
+
+# Vite cache
+web/.vite/
+web/dist/
+web/.cache/
+
+# TypeScript cache
+web/*.tsbuildinfo
+web/tsconfig.tsbuildinfo
+
+# Build output
+web/build/
+web/dist/
+
+# System files
+**/.DS_Store
+**/Thumbs.db
+
+# Environment variables
+**/.env
+**/.env
